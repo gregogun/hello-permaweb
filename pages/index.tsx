@@ -14,6 +14,57 @@ export default function Home() {
         <div className={styles.center}>
           <h1 className={styles.heading}>Welcome to the permaweb</h1>
         </div>
+        <div className={styles.grid}>
+          <a
+            href="https://arwiki.wiki/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Wiki <span>-&gt;</span>
+            </h2>
+            <p>Find in-depth information about the Arweave protocol.</p>
+          </a>
+
+          <a
+            href="https://cookbook.arweave.dev/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Cookbook <span>-&gt;</span>
+            </h2>
+            <p>Learn how to go from 0-1 with building Permaweb apps.</p>
+          </a>
+
+          <a
+            href="https://www.vouchdao.xyz/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              VouchDao <span>-&gt;</span>
+            </h2>
+            <p>Vouch for your identity on the Permaweb!</p>
+          </a>
+
+          <a
+            href="https://www.arconnect.io/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Get a Wallet <span>-&gt;</span>
+            </h2>
+            <p>
+              Get an Arweave wallet to start uploading data to the Permaweb.
+            </p>
+          </a>
+        </div>
       </main>
     </>
   );
