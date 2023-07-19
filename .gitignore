@@ -44,3 +44,5 @@ keyfile.json
 
 # bundlr
 out-*
+
+cache/
